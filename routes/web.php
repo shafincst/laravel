@@ -13,8 +13,12 @@ use App\Http\Controllers\HomeController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/crud', [CrudController::class, 'indexhome'])->name('crud');
+Route::get('/crud', [CrudController::class, 'index'])->name('crud');
+Route::get('/crud/{id}', [CrudController::class, 'edit'])->name('edit');
+Route::get('/crud/delete/{id}', [CrudController::class, 'delete'])->name('delete');
+Route::get('/create', [CrudController::class, 'create'])->name('create');
 Route::post('/crud/store', [CrudController::class, 'store'])->name('store');
+Route::post('/crud/update', [CrudController::class, 'update'])->name('update');
 
 
 

@@ -6,7 +6,7 @@
     					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">CONTACT <span>AWESOME</span></h2>
     				</div>
     				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
-    					<form action="{{route('store')}}" method="post">
+    					<form action="{{route('store')}}" method="POST">
 							@csrf
 							<label>NAME</label>
     						<input name="name" type="text" class="form-control" id="name">

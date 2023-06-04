@@ -27,11 +27,11 @@
             <div class="card-body">
               <h5 class="card-title">Student List</h5>
 
-              @if(session()->has('message'))
+              {{-- @if(session()->has('message'))
                   <div class="alert alert-success">
                       {{ session()->get('message') }}
                   </div>
-              @endif
+              @endif --}}
 
               <div>
                 
@@ -58,7 +58,7 @@
                       <td>{{$row->phone}}</td>
                       <td>{{$row->email}}</td>
                       <td>{{$row->address}}</td>
-                      <td>{{$row->address}}</td>
+                      <td>{{$row->message}}</td>
                       <td>
                         <a class="badge badge-warning" href="{{route('edit',$row->id)}}">Edit</a>
                         <a class="badge badge-danger" href="{{route('delete',$row->id)}}">delete</a>
