@@ -45,7 +45,7 @@ class CrudController extends Controller
                 'message' => $request->message,
             ]
         );
-        return redirect()->route('crud')->with('messages');
+        return redirect()->route('crud');
     }
 
     public function edit($id)

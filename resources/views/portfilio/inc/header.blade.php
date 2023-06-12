@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
 		<link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="css/templatemo-style.css">
+		<link rel="stylesheet" href="{{asset('css/templatemo-style.css')}}">
 		<script src="{{asset('js/jquery.js')}}"></script>
 		<script src="{{asset('js/bootstrap.min.js')}}"></script>
         <script src="{{asset('js/jquery.singlePageNav.min.js')}}"></script>
