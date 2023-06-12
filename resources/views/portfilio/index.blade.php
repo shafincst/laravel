@@ -1,4 +1,4 @@
-@include('inc.header')
+@include('portfilio.inc.header')
 
 
   
@@ -22,13 +22,13 @@
     		</div>
     	</section>
     	<!-- end home -->
-		@include('about')
-		@include('team')
-		@include('service')
-		@include('portfolio')
+		@include('portfilio.about')
+		@include('portfilio.team')
+		@include('portfilio.service')
+		@include('portfilio.portfolio')
 		
-		@include('contact')
+		@include('portfilio.contact')
 
 
 
-@include('inc.footer')
+@include('portfilio.inc.footer')

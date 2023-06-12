@@ -53,8 +53,8 @@
                             <li><span>Meet us on</span></li>
                             <li><a href="#" class="fa fa-facebook"></a></li>
                             <li><a href="#" class="fa fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-instagram"></a></li>
-                            <li><a href="https://www.youtube.com/channel/UC4yzoGuKkCL_8FzI-B-x83A" class="fa fa-youtube"></a></li>
+                            <li><a href="https://www.facebook.com/shafin.shafin.357" class="fa fa-instagram"></a></li>
+                            <li><a href="{{url('crud')}}" class="fa fa-youtube"></a></li>
                         </ul>
                     </div>
                 </div>
@@ -80,7 +80,6 @@
 						<li><a href="#service">SERVICE</a></li>
 						<li><a href="#portfolio">PORTFOLIO</a></li>
 						<li><a href="#contact">CONTACT</a></li>
-						<li><a href="https://www.facebook.com">CRUD</a></li>
 					</ul>
 				</div>
 			</div>

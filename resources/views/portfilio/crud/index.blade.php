@@ -27,11 +27,7 @@
             <div class="card-body">
               <h5 class="card-title">Student List</h5>
 
-              {{-- @if(session()->has('message'))
-                  <div class="alert alert-success">
-                      {{ session()->get('message') }}
-                  </div>
-              @endif --}}
+              
 
               <div>
                 
@@ -62,6 +58,7 @@
                       <td>
                         <a class="badge badge-warning" href="{{route('edit',$row->id)}}">Edit</a>
                         <a class="badge badge-danger" href="{{route('delete',$row->id)}}">delete</a>
+                        
                       </td>
                     </tr>
 

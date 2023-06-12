@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CrudController;
 use App\Http\Controllers\HomeController;
+use Illuminate\Notifications\Action;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,5 +25,5 @@ Route::post('/crud/update', [CrudController::class, 'update'])->name('update');
 
 
 Route::get('/', function () {
-    return view('index');
+    return view('portfilio.index');
 });
